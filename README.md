@@ -15,7 +15,7 @@
 
 2.使用例子：   
 
-添加轮播按钮
+添加轮播按钮    
 JFEQScrollViewPicker *eqScrollView = [[JFEQScrollViewPicker alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, 63)];
 eqScrollView.delegate = self;
 [self.view addSubview:eqScrollView];  
