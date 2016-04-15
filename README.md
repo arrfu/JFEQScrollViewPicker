@@ -25,6 +25,11 @@ JFEQScrollViewPicker *eqScrollView = [[JFEQScrollViewPicker alloc] initWithFrame
 eqScrollView.delegate = self;
 [self.view addSubview:eqScrollView];  
 
+#pragma mark - 轮播按钮回调
+-(void)scrollButtonClickIndex:(NSInteger)index{
+    NSLog(@"index = %d",index);
+}
+
 </oc></pre>
     
 3.效果：   
