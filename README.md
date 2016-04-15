@@ -12,9 +12,9 @@
 
 -@property (nonatomic,unsafe_unretained)id <JFEQScrollViewDelegate> delegate;
 
-<pre><code>
+<pre><oc>
 -@property (nonatomic,unsafe_unretained)id <JFEQScrollViewDelegate> delegate;
-</code></pre>
+</oc></pre>
 2.使用例子：   
 
 添加轮播按钮    
