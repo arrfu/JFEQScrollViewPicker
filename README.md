@@ -4,6 +4,8 @@
 
 1.使用接口：   
 
+<pre><oc>
+
 @protocol JFEQScrollViewDelegate <NSObject>
 
 -(void)scrollButtonClickIndex:(NSInteger)index;
@@ -11,16 +13,19 @@
 @end
 
 -@property (nonatomic,unsafe_unretained)id <JFEQScrollViewDelegate> delegate;
-
-<pre><oc>
--@property (nonatomic,unsafe_unretained)id <JFEQScrollViewDelegate> delegate;
 </oc></pre>
+
 2.使用例子：   
 
 添加轮播按钮    
+
+<pre><oc>
+
 JFEQScrollViewPicker *eqScrollView = [[JFEQScrollViewPicker alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, 63)];
 eqScrollView.delegate = self;
 [self.view addSubview:eqScrollView];  
+
+</oc></pre>
     
 3.效果：   
 
