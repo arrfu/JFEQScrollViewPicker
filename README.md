@@ -1,6 +1,6 @@
 # JFEQScrollViewPicker
 
-轮播按钮，菜单  
+轮播按钮，滚动菜单  scrollView menu
 
 1.使用接口：   
 
